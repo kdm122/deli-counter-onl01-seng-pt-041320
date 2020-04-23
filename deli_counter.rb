@@ -16,7 +16,7 @@ def line(katz_deli)
     line_number = 1
     katz_line_arry.push " #{line_number}. #{name}"
   end
-    puts katz_line_arry.join
+    puts katz_line_array.join
   end
   
 
