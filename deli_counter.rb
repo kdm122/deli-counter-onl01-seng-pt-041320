@@ -15,6 +15,7 @@ def line(katz_deli)
   katz_deli.each do |name|
     line_number = 1
     katz_line_array.push " #{line_number}. #{name}"
+    line_number += 1
   end
     puts katz_line_array.join
   end
