@@ -21,9 +21,10 @@ def line(katz_deli)
   end
     puts katz_line_array.join
   end
-  
-
 end
+
+def now_serving(katz_deli)
+  
   
 
 #take_a_number(katz_deli, "Peter")
