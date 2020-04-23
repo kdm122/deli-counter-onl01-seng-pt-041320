@@ -8,6 +8,9 @@ def take_a_number(katz_deli, name)
 end
 
 def line(katz_deli)
+  if katz_deli.size == 0
+    
+  
   katz_deli.each do |name|
     line_number = 1
     puts "The line is currently #{line_number}. {
