@@ -14,7 +14,7 @@ def line(katz_deli)
   katz_line_array = ["The line is currently:"]  
   katz_deli.each do |name|
     line_number = 1
-    katz_line_arry.push " #{line_number}. #{name}"
+    katz_line_array.push " #{line_number}. #{name}"
   end
     puts katz_line_array.join
   end
