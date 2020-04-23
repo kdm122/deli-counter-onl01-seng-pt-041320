@@ -4,7 +4,7 @@ katz_deli = []
 
 def take_a_number(katz_deli, name)
   katz_deli.push name
-  puts "Welcome, #{name}.  You are number #{katz_deli.size} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
 def line(katz_deli)
