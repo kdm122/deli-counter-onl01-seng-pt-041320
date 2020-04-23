@@ -33,8 +33,9 @@ end
 
 take_a_number(katz_deli, "Peter")
 now_serving(katz_deli)
-
+now_serving(katz_deli)
 take_a_number(katz_deli, "Paul")
 take_a_number(katz_deli, "Mary")
 
 line(katz_deli)
+now_serving(katz_deli)
