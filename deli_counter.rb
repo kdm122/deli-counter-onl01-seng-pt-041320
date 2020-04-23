@@ -7,6 +7,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}.  You are number #{katz_deli.size} in line."
 end
 
+def line(katz_deli)
+  katz_deli.each do |name|
+    
+
 take_a_number(katz_deli, "Peter")
 take_a_number(katz_deli, "Paul")
 take_a_number(katz_deli, "Mary")
