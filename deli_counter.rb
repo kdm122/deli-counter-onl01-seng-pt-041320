@@ -26,8 +26,8 @@ def line(katz_deli)
 end
   
 
-take_a_number(katz_deli, "Peter")
-take_a_number(katz_deli, "Paul")
-take_a_number(katz_deli, "Mary")
+#take_a_number(katz_deli, "Peter")
+#take_a_number(katz_deli, "Paul")
+#take_a_number(katz_deli, "Mary")
 
 line(katz_deli)
