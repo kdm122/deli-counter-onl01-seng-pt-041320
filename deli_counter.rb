@@ -12,8 +12,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
   katz_line_array = ["The line is currently:"]  
+  
+      line_number = 1
   katz_deli.each do |name|
-    line_number = 1
+
     katz_line_array.push " #{line_number}. #{name}"
     line_number += 1
   end
