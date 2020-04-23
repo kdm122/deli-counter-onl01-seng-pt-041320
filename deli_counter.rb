@@ -8,3 +8,5 @@ def take_a_number(katz_deli, name)
 end
 
 take_a_number(katz_deli, "Peter")
+take_a_number(katz_deli, "Paul")
+take_a_number(katz_deli, "Mary")
