@@ -24,12 +24,17 @@ def line(katz_deli)
 end
 
 def now_serving(katz_deli)
+  if katz_deli.size == 0 
+    puts "There is nobody waiting to be served!"
+  else  
   puts "Currently serving #{katz_deli[0]}."
   katz_deli.shift
-  
+end
 
-#take_a_number(katz_deli, "Peter")
-#take_a_number(katz_deli, "Paul")
-#take_a_number(katz_deli, "Mary")
+take_a_number(katz_deli, "Peter")
+now_serving(katz_deli)
+
+take_a_number(katz_deli, "Paul")
+take_a_number(katz_deli, "Mary")
 
 line(katz_deli)
