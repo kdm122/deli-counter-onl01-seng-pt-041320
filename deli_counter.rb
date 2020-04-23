@@ -11,10 +11,10 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    
+  katz_line_array = []  
   katz_deli.each do |name|
     line_number = 1
-    puts "The line is currently #{line_number}. {
+    puts " #{line_number}. #{name} "
 
 take_a_number(katz_deli, "Peter")
 take_a_number(katz_deli, "Paul")
