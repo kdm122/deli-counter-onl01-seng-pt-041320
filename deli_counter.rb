@@ -9,7 +9,8 @@ end
 
 def line(katz_deli)
   katz_deli.each do |name|
-    
+    line_number = 1
+    puts "The line is currently #{line_number}. {
 
 take_a_number(katz_deli, "Peter")
 take_a_number(katz_deli, "Paul")
